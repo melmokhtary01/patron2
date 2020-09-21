@@ -1,0 +1,44 @@
+.contenedor{
+    margin:20px auto;
+    background-color: lightblue;
+    width:60%;
+    height: 100vh;
+    padding:20px 30%;
+}
+input{
+    display:block;
+    border-color:green;
+    border-radius:10px;
+    
+}
+input[type="button"]{
+    border: 5px solid red;
+    border-radius:50px;
+    background-color: lightsalmon;
+    color:green;
+    margin:20px;
+}
+fieldset input{
+    display: block;
+    
+}
+.btnResetear{
+    width: 80px;
+    margin-top: 30px;
+    background-color: lightsalmon;
+}
+
+.btnValidar{
+    width: 80px;
+    margin-top: 30px;
+    background-color: rgb(57, 49, 130);
+}
+
+input:valid{
+color:blue;
+}
+input:invalid{
+color:red;
+}
+
+
